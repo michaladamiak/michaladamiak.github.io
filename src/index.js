@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const about = document.querySelector('.about_me')
+    const about = document.querySelector('.link-about')
     const contacts = document.querySelector('.contacts')
     const o = document.querySelector('.o')
     const projects = document.querySelector('.projects')
