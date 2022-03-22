@@ -8,6 +8,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+
 .container {
     font-size: 60px;
     color: white;
@@ -143,7 +144,8 @@ section {
     font-size: 20px;
     padding: 15px 0 11px 0;
     margin: 15px 0 0 0;
-    color: rgb(153, 50, 204);
+    /* color: rgb(153, 50, 204); */
+    color: rgb(255, 255, 255);
     background-color: transparent;
     box-shadow: 0 0 30px rgb(153, 50, 204), inset 0 0 20px rgb(153, 50, 204);
     text-shadow: 0 0 10px rgb(153, 50, 204);
@@ -215,6 +217,25 @@ section {
     text-shadow: 0 0 10px rgba(67, 214, 44, 0.8);
 }
 
+.arrow {
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    transform: rotateY(3.142rad);
+}
+
+#arrow-about {
+    /* color: rgba(67, 214, 44); */
+    text-shadow: 0 0 10px rgba(67, 214, 44);
+}
+
+#arrow-contact {
+    /* color: rgb(153, 50, 204); */
+    text-shadow: 0 0 30px rgb(153, 50, 204);
+}
+
 
 @media only screen and (max-width: 650px) {
 
@@ -222,7 +243,8 @@ section {
     .container {
         font-size: 28px;
         top: 60%;
-        width: 340px
+        width: 340px;
+        margin: 0 0 0 40px;
     }
 
     .projects {
@@ -283,7 +305,13 @@ section {
 
     section {
         height: auto;
-        margin: 60px 0 0 0;
+        margin: 80px 0 0 0;
+    }
+
+    .arrow {
+        font-size: 60px;
+        left: 20px;
+        top: 20px;
     }
 
 }
