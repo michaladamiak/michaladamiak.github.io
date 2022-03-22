@@ -278,4 +278,9 @@ section {
         /* max-width: none;
         min-width: none; */
     }
+
+    section {
+        height: auto;
+        margin: 100px 0 0 0;
+    }
 }
