@@ -184,6 +184,14 @@ section {
     transform: perspective(3.9px) rotateX(3deg) scale(1, 0.7);
 }
 
+/* thank you */
+
+.thank-you {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgb(153, 50, 204);
+}
+
 
 /* abot me */
 
@@ -283,7 +291,14 @@ section {
         width: 70%;
     }
 
-    /* about */
+    /* thank you */
+
+    .thank-you{
+        margin: 60px 0 0 0;
+        font-size: 40px;
+    }
+
+    /* about me */
 
     .about-container {
         max-width: 250px;
